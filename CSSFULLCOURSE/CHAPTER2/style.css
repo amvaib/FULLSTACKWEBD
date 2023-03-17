@@ -1,0 +1,22 @@
+.container{
+   
+    color: black;
+    height: 1744px;
+    width: 344px;
+    background-image: url('VAIBHAVLINKEDINPFP-modified200.png');
+
+    border: 2px solid red;
+    
+    background-repeat: no-repeat;
+
+    background-size: 100px 100px;
+    
+/* 
+    background-position: center ; */
+
+
+    background-attachment:fixed ;
+        /* background-attachment:local ;
+        background-attachment:scroll ; */
+
+}
