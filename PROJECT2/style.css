@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:ital,wght@1,300&family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primarytextcolor:#183b56;
+    --secondarytextcolor:#577592; 
+    --accentcolor: #2294ed;
+    --accentcolordark:#1d69a3;
+    --paddinginlinesection:20px;
+}
+
+body{
+    font-family: 'Poppins' , sans-serif;
+    color: var(--primarytextcolor);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: 'roboto', sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondarytextcolor);
+    line-height: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.smallboldtext{
+    font-size: 14px;
+    font-weight: 700
+}
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding: var(--paddinginlinesection);
+}
+
+.bannertext{
+    text-align: center;
+    padding: px 30px;
+    color: white;
+    font-weight: 20px;
+   
+}
+
+.topbanner{
+    background-image: url(./Assets/asset\ 32.png);
+    background-color: #e74694;
+    background-size: 300px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.companylogo img{
+    width: 200px;
+
+}
+
+.mainnav{
+    justify-content: space-between;
+}
+
+.navlinks ul{
+    justify-content: end;
+    gap: 40px;
+}
+
+.navlinks{
+    flex-basis: 730px;
+}
+
+.hoverlinks{
+    color: var(--primarytextcolor);
+
+}
+
+.hoverlinks:hover{
+    color: var(--accentcolor);
+}
+
+.primarybutton{
+    background-color: var(--accentcolor);
+    border-radius: 8px;
+    padding: 8px 17px;
+    color: white;
+  box-shadow: 0 0 2px var(--secondarytextcolor);
+  transition: 0.2s ease-out;
+}
+
+.primarybutton:hover{
+    background-color: #183b56   ;
+    color: white;
+}
+
+.secondarybutton{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px 17px;
+    color: black;
+    box-shadow: 0 0 2px var(--secondarytextcolor);
+    transition: 0.2s ease-out    ;
+}
+
+.secondarybutton:hover{
+    background-color: #183b56;
+    color: white;
+}
+
+header{
+    padding: 50px var(--paddinginlinesection 0);
+}
+
+.headersection{
+    justify-content: center;
+    gap: 100px;
+}
