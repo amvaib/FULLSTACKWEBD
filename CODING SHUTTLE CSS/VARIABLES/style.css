@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primarycolour: #222;
+    --backgroundcolour: #eee;
+    --defaultmargin: 40px;
+    --cardbackgroundcolor: #fff;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: var(--backgroundcolour);
+    padding: 30px;
+
+}
+
+h1{
+    text-align: center;
+    color: var(--primarycolour);
+
+
+}
+
+.box{
+    padding: var(--defaultmargin);
+    /* margin: var(--defaultmargin); */
+    background-color: var(--cardbackgroundcolor);
+    margin-block: 20px;
+    
+    border-radius: 20px;
+    
+}
+
+h2{
+    margin-bottom: 20px;
+    font-style: bold;
+}
+
