@@ -28,7 +28,7 @@ h2{
 }
 
 h3{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 p{
@@ -142,3 +142,137 @@ header{
     justify-content: center;
     gap: 100px;
 }
+
+.headerright img{
+    width: 600px;
+}
+
+.headerleft{
+    max-width: 40vw;
+
+}
+
+.headerleft h1{
+    margin-top: 20px;
+    white-space: nowrap;
+
+
+}
+
+.getstartedbutton{
+    margin-top: 20px;
+
+
+}
+
+.companiesheader{
+    text-align: center;
+    color: var(--primarytextcolor);
+    margin-block: 20px;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.logo{
+
+    height: 46px;
+    
+}
+
+.logos{
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.featuresheader{
+    text-align: center;
+    margin-block: 140px;
+    
+}
+
+.featuresheader h2{
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.seeallfeatures{
+    border-radius: 5px;
+    
+}
+
+.featuresarea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 60px;
+}
+
+.featurescard{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+}
+
+.featurescard img{
+    width: 60px;
+}
+
+.featuressection{
+    background-image: url(./Assets/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.featureimg img{
+    width: 500px;
+}
+
+.bigfeaturecontainer{
+    justify-content: space-between;
+}
+
+.featuretext{
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.featuretext h4{
+    font-weight: 200;
+    
+    font-size: 20px;
+}
+
+.featuretext h3{
+    font-size: 30px;
+}
+
+.exampleheading {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.examplesarea{
+    justify-content: space-between;
+    margin-top: 20px;
+   
+}
+.examplescard{
+    width: 23%;
+    min-height: 300px;
+    
+
+    flex-direction: row;
+    background: white;
+    
+   
+}
+
+
+
+.examplescard img{
+    opacity: 0.9;
+}
+
