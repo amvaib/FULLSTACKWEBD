@@ -232,11 +232,13 @@ header{
 
 .bigfeaturecontainer{
     justify-content: space-between;
+    gap: 20px;
 }
 
 .featuretext{
     flex-direction: column;
     align-items: flex-start;
+    
     
 }
 .featuretext h4{
@@ -266,7 +268,7 @@ header{
 
     flex-direction: row;
     background: white;
-    
+    transition: 0.2s ease-out;
    
 }
 
@@ -274,5 +276,70 @@ header{
 
 .examplescard img{
     opacity: 0.9;
+}
+
+.examplescard:hover{
+    box-shadow: 0 0 10px #888;
+}
+
+.ctabackground{
+    height: 80vh;
+    background-color: var(--primarytextcolor);
+}
+
+
+.ctabackground ul li{
+    color: white;
+    margin: 20px;
+    list-style:disc;
+    
+}
+
+.ctah3{
+    color: white;
+}
+
+.ctaheading{
+    color: white;
+}
+
+.ctatext{
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.ctaimg img{
+    
+    width: 600px;
+    
+}
+.ctacontainer{
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.ctaimg2{
+    width: 200px;
+
+}
+
+
+.lastcontainer{
+    background-color: white;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.lastcontainer .container{
+    flex-direction: column;
+    
+}
+
+.lastcontainerp{
+    margin-top: 30px;
 }
 
