@@ -32,12 +32,15 @@ body{
     gap: 20px;
 }
 
+
+
 .gallery{
     flex-basis: 50%;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(3,1fr);
     grid-auto-rows: 140px;
+    
     /* background-size: cover; */
     
 
@@ -45,6 +48,7 @@ body{
 }
 
 .box{
+    
     color: white;
     /* border: white solid 2px; */
     display: flex;
