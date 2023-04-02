@@ -18,12 +18,13 @@ body{
     align-items: center;
     justify-content: center;
     gap: 20px;
-    background: linear-gradient(to right, #041308 , #0b3317);
+    /* background: linear-gradient(to right, #041308 , #0b3317); */
+    background-color: lightgreen;
 }
 
 .left{
     flex-basis: 30%;
-    color: white;
+    color: rgb(52, 46, 46);
     display: flex;
     /* justify-content: center; */
     align-items: flex-start;

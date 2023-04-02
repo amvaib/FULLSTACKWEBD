@@ -52,6 +52,7 @@ a{
     max-width: 1180px;
     margin-inline: auto;
     padding: var(--paddinginlinesection);
+    overflow: hidden;
 }
 
 .bannertext{
@@ -140,11 +141,11 @@ header{
 
 .headersection{
     justify-content: center;
-    gap: 100px;
+    gap:200px;
 }
 
 .headerright img{
-    width: 600px;
+    width: 100%;
 }
 
 .headerleft{
@@ -180,8 +181,9 @@ header{
 }
 
 .logos{
-    justify-content: space-between;
-    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .featuresheader{
@@ -204,7 +206,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 50px;
+    gap: 30px;
     margin-top: 60px;
 }
 
@@ -259,11 +261,11 @@ header{
 .examplesarea{
     justify-content: space-between;
     margin-top: 20px;
-   
+   flex-wrap: wrap;
 }
 .examplescard{
     width: 23%;
-    min-height: 300px;
+    height: 300px;
     
 
     flex-direction: row;
@@ -291,6 +293,7 @@ header{
 .ctabackground ul li{
     color: white;
     margin: 20px;
+    
     list-style:disc;
     
 }
@@ -317,6 +320,7 @@ header{
 .ctacontainer{
     justify-content: space-between;
     gap: 20px;
+    
     
 }
 
@@ -388,4 +392,8 @@ footer{
     justify-content: center;
     gap: 20px;
     
+}
+
+.navtoggle{
+    display: none;
 }

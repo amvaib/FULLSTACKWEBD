@@ -1,0 +1,31 @@
+@media screen and (max-width: 991px){
+    .navtoggle{
+        display: block;
+        margin-right: 20px;
+    }
+
+    .navlinks{
+        display: none;
+    }
+
+    .examplescard{
+        width:calc(50% - 10px);
+        height: 180px;
+        
+    }
+
+    .examplesarea{
+        gap: 10px;
+    }
+
+    .ctalist{
+        display: none;
+    }
+    .ctatext{
+        gap: 20px;
+    }
+
+    .ctaimg img {
+        width: 400px;
+    }
+}
