@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccc;
+}
+
+.container{
+    
+    max-width: 900px;
+    margin: 0 auto;
+    
+    
+}
+
+h1{
+    font-family: 'Varela Round', sans-serif;
+    transform: translateX();
+
+    animation: leftright 1s ease-in;
+    
+    
+}
+
+.applybox{
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: white;
+
+    margin-top: 50px;
+    height: 88vh;
+    border-radius: 10px;
+
+
+    
+
+
+}
+
+.formcontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap: 20px;
+    margin-top: 20px;
+    animation: leftright 1s ease-in;
+
+
+    
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 15px;
+    font-family: poppins;
+    margin-bottom: 5px;
+}
+
+input,select,textarea{
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+input:hover{
+    outline-color: red;
+    transition: 0.5s;
+    ;
+}
+
+.buttoncontainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-top: 15px;
+
+}
+
+.buttoncontainer button{
+    padding: 7px 9px;
+    background-color: red;
+    color: white;
+    border: 1px solid red ;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.buttoncontainer button:hover{
+    transform: scale(1.3);
+    background-color: black;
+    
+
+    
+}
+
+.textareacontrol{
+    grid-column: 1/ span 2;
+}
+
+.textareacontrol textarea{
+    width: 100%;
+}
+
+@keyframes leftright {
+
+    from{
+        transform: translateX(-2000px);
+    }
+    
+}
+
+@media(max-width: 460px){
+    .textareacontrol{
+        grid-column: 1/ span 1;
+    }
+
+    .applybox{
+        height: 100vh;
+    }
+
+}
